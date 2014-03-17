@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+
+<title>jQuery IME Off-line</title>
+<meta name="author" content="MANOJ SAHUKAR" />
+<link href="../css/jquery.ime.css" rel="stylesheet" />
+<script src="../src/jquery.min.js" ></script>
+<script src="../libs/rangy/rangy-core.js"></script>
+<script src="../src/jquery.ime.js"></script>
+<script src="../src/jquery.ime.selector.js"></script>
+<script src="../src/jquery.ime.preferences.js"></script>
+<script src="../src/jquery.ime.inputmethods.js"></script>
+<!-- Demo -->
+<link href="demo.css" rel="stylesheet" />
+<script>
+	$( document ).ready( function () {
+		$( 'input, textarea, [contenteditable]' ).ime();
+	} );
+</script>
+</head>
+
+<body>
+	<div>
+		<header>
+			<h1>jQuery IME Off-line Only for Mozilla Firefox</h1>
+		</header>
+		<div>
+			<textarea></textarea>
+		</div>
+		<div id="console"></div>
+		<footer>
+			<p>Tweaked by <a href="http://in.linkedin.com/in/manojsahukar/" target="_blank" >MANOJ SAHUKAR</a> </p>
+		</footer>
+	</div>
+</body>
+</html>

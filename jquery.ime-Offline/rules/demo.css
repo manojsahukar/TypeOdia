@@ -1,0 +1,10 @@
+body {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+textarea {
+	width: 800px;
+	height: 300px;
+	margin-bottom: 20px;
+}
