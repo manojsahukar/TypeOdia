@@ -580,7 +580,7 @@
 	};
 
 	IMESelector.defaults = {
-		defaultLanguage: 'en',
+		defaultLanguage: 'or',
 		timeout: 2500 // Milliseconds after which IME widget hides itself.
 	};
 
@@ -628,7 +628,7 @@
 					'data-i18n': 'jquery-ime-disable-text'
 				} )
 				.addClass( 'ime-checked' )
-				.text( 'System input method' ),
+				.text( 'system input method' ),
 			$( '<span>' )
 				.addClass( 'ime-disable-shortcut' )
 				.text( 'CTRL+M' )
