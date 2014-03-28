@@ -4,8 +4,8 @@ body {
 }
 
 textarea {
-	width: 800px;
-	height: 300px;
+	width: 1000px;
+	height: 400px;
 	margin-bottom: 20px;
-	font-size: 40px;
+	font-size: 30px;
 }
