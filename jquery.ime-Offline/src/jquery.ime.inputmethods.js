@@ -603,10 +603,6 @@
 			autonym: 'भोजपुरी',
 			inputmethods: [ 'hi-transliteration' ]
 		},
-		'bho': {
-			autonym: 'भोजपुरी',
-			inputmethods: [ 'hi-transliteration' ]
-		},
 		'bn': {
 			autonym: 'বাংলা',
 			inputmethods: [ 'bn-avro', 'bn-inscript', 'bn-nkb', 'bn-probhat', 'bn-inscript2' ]
