@@ -440,9 +440,9 @@
 			name: 'ଫୋନେଟିକ',
 			source: 'rules/or/or-phonetic.js'
 		},
-		'or-modular': {
-			name: 'ମୋଡୁଲାର',
-			source: 'rules/or/or-modular.js'
+		'or-odiscript': {
+			name: 'ଓଡ଼ିସ୍କ୍ରିପ୍ଟ',
+			source: 'rules/or/or-odiscript.js'
 		},
 		'sd-inscript2': {
 			name: 'इनस्क्रिप्ट २',
@@ -581,7 +581,7 @@
 	$.extend( $.ime.languages, {
 		'or': {
 			autonym: 'ଓଡ଼ିଆ',
-			inputmethods: [  'or-lekhani', 'or-modular', 'or-transliteration', 'or-phonetic', 'or-inscript', 'or-inscript2' ]
+			inputmethods: [  'or-lekhani', 'or-odiscript', 'or-transliteration', 'or-phonetic', 'or-inscript', 'or-inscript2' ]
 		},
 		'hi': {
 			autonym: 'हिन्दी',
